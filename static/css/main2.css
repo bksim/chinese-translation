@@ -1,0 +1,160 @@
+body {
+  margin-top: 0px;
+  padding-top: 0px;
+  background-color: white;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+}
+h1 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 38px;
+  line-height: 44px;
+  font-weight: 700;
+}
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
+}
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+h5 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}
+p {
+  width: 800px;
+  margin-top: 1px;
+  margin-bottom: 5px;
+  margin-left: 426px;
+  padding-bottom: 33px;
+  text-align: justify;
+}
+.button {
+  display: inline-block;
+  padding: 4px 15px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.section {
+  background-color: black;
+  color: white;
+}
+.title {
+  margin-bottom: 44px;
+  padding-top: 23px;
+  font-size: 36px;
+  text-align: center;
+}
+.mainsection {
+  margin-top: 92px;
+}
+.dropdownmenu {
+  width: 180px;
+  margin-right: -9px;
+}
+.form1 {
+  background-color: white;
+}
+.navlink1 {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: white;
+  font-weight: 700;
+}
+.navlink3 {
+  color: white;
+  font-weight: 700;
+}
+.navlink2 {
+  color: white;
+  font-weight: 700;
+}
+.navbar {
+  background-color: black;
+  color: white;
+}
+.facebooktwitter {
+  position: relative;
+  height: 55px;
+  margin-left: 1000px;
+  padding-right: 20px;
+  padding-left: 277px;
+  font-size: 14px;
+}
+.twitter {
+  right: -81px;
+  display: inline;
+  margin-left: 676px;
+  float: left;
+}
+.facebook {
+  left: -240px;
+  top: 31px;
+  right: -68px;
+  display: inline;
+  margin-left: 206px;
+}
+.image1 {
+  position: relative;
+  display: block;
+  height: 350px;
+  margin-top: 90px;
+  margin-right: auto;
+  margin-left: 210px;
+  float: left;
+  clear: none;
+}
+.image2 {
+  display: block;
+  height: 350px;
+  margin-top: 90px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.column1 {
+  margin-top: -6px;
+  margin-bottom: 62px;
+}
+.column2 {
+}
+.textblock {
+  margin-top: 48px;
+  width:80%;
+  margin-left:auto;
+  margin-right:auto;
+}
+.textblock1 {
+  margin-top: 494px;
+  width:80%;
+  margin-left:auto;
+  margin-right:auto;
+}

@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+{% block content %}
+  <!--<div class="jumbo">
+  	<form name="form" action="/query" method="get">
+  		<br/>
+		<input type="text" name="original" value="{{ original }}"></input>
+	</form>
+	<br/>
+    {{ translated }}
+  </div>-->
+
+<div class="title" style="margin-bottom:0px;"><strong>Translator</strong></div>
+
+<div class="mainsection">
+  <div class="w-container">
+    <div class="w-form">
+      <form class="form1" action="/query" method="get">
+        <select class="w-select dropdownmenu" id="translate" name="translate">
+          <option value="eng2chi">English to Chinese</option>
+          <option value="eng2spa">English to Spanish</option>
+          <option value="eng2kor">English to Korean</option>
+        </select>
+        <label class="title2" for="name">Translate</label>
+        <input class="w-input" id="original" value="{{ original }}" name="original" required="required">
+        <!--<input class="w-button" type="submit" value="Submit">-->
+        {{ translated }}
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}

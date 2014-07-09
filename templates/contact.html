@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+{% block content %}
+  <!--<div class="jumbo">
+    <h2>enter a phrase in english</h2>
+    <form action="/query" method="get">
+		<input type="text" name="original" placeholder="I will eat rice."></input>
+	</form>
+
+  </div>-->
+
+
+<div class="title" style="margin-bottom:0px;"><strong>Contact</strong></div>
+
+<div class="w-row" style="margin-bottom: 0px;">
+	<div class="w-col w-col-6 w-clearfix column1">
+	  <img class="image1" src="{{ url_for('static', filename='img/bks.png') }}" alt="Brandon Sim">
+	  <div class="textblock1">Brandon Sim will soon be a senior at Harvard College, studying physics and statistics for his undergraduate studies and completing a fourth-year masters in computational science. He is interested in tough problems and is intrigued with the idea of developing smarter computer interfaces and software. He's also interested in game theory and economics, and in his spare time enjoys playing both basketball and fantasy basketball.</div>
+	</div>
+	<div class="w-col w-col-6 column2">
+	  <img class="image2" src="{{ url_for('static', filename='img/davidchu.jpeg') }}" alt="David Chu">
+	  <div class="textblock">David Chu is an undergrad at UC Davis and is interested in quantatative social science.&nbsp;Currently, he is studying at Yonsei University in Seoul, South Korea. He is fluent in both English, Chinese, and Spanish. He is currently learning Korean as his fourth language. In his free time, David enjoys writing and working on projects such as this translator. He enjoys playing basketball and watching tv. For any inquiries, please contact dychu@ucdavis.edu.</div>
+	</div>
+</div>
+{% endblock %}
+
+
